@@ -17,6 +17,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_ivy.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ivy-bp4a-user \
-    lineage_ivy-bp4a-userdebug \
-    lineage_ivy-bp4a-eng
+    lineage_ivy-cp2a-user \
+    lineage_ivy-cp2a-userdebug \
+    lineage_ivy-cp2a-eng
