@@ -30,7 +30,6 @@ TARGET_OTA_ASSERT_DEVICE := E6533,E6553,ivy,ivy_dsds
 
 # Boot image/kernel
 TARGET_KERNEL_CONFIG := kitakami_ivy_defconfig
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Lineage hardware
 BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/lineagehw
