@@ -49,10 +49,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
-# thermal-engine links liblights-core.so
-PRODUCT_PACKAGES += \
-    liblights-core_vendor_shim
-
 # FBE/metadata encryption
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vold.projid_quotas=false \
